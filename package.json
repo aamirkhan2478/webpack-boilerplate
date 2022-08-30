@@ -7,6 +7,9 @@
     "build": "webpack --mode production",
     "start": "webpack serve --mode development --open"
   },
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aamirkhan2478/webpack-boilerplate.git"
